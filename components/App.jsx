@@ -11,7 +11,7 @@ export default class App extends React.Component {
 
     return(
       <div style={{maxWidth: '500px'}}>
-        <h1>mcro.de/WIP</h1>
+        <h1>My Unimpressive Website</h1>
         {children}
       </div>
     );

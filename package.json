@@ -1,7 +1,7 @@
 {
-  "name": "mcrode4",
-  "description": "4th iteration of mcro.de",
-  "author": "David Morasz <_@mcro.de>",
+  "name": "unimpressive-articles",
+  "description": "My Unimpressive Website",
+  "author": "My Name <my@email.com>",
   "license": "Private use, no reuse allowed",
   "private": "true",
   "main": "index.js",

@@ -8,7 +8,7 @@ import PageNotFound from './components/PageNotFound';
 import { MdArticle, RoutedMdArticle } from './components/MdArticle';
 
 function updateTitle(nextState) {
-  document.title = `mcro.de ${nextState.location.pathname}`;
+  document.title = `foobar ${nextState.location.pathname}`;
 }
 
 
@@ -27,7 +27,7 @@ function checkForRedirect(nextState, replace) {
   } else if (location.pathname.split('/')[1] === gitHubRepoName) {
     redirectToDomain();
   } else {
-    document.title = `mcro.de ${nextState.location.pathname}`;
+    document.title = `foobar ${nextState.location.pathname}`;
   }
 }
 ///////////////////////////////////////////////////////////////////////////////
@@ -62,7 +62,7 @@ function parseRedirectQuery(query, replace) {
     redirectTo.hash = `#${query.hash}`
   }
 
-  document.title = `mcro.de ${redirectTo.pathname}`;
+  document.title = `foobar ${redirectTo.pathname}`;
 
   replace(redirectTo)
 }
@@ -81,7 +81,7 @@ function parseRedirectQuery(query, replace) {
 const gitHubRepoName = 'react-github-pages';
 // The domain for your site
 // SET THIS: e.g. http://subdomain.example.tld, or http://www.example.tld
-const domain = 'http://mcro.de';
+const domain = 'http://www.example.tld';
 function redirectToDomain() {
   window.location.replace(domain);
 }
